@@ -6,25 +6,11 @@
 
 body {
   padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
-  font-family: "Ubuntu";
-  background-image: url(../img/bodybg.png);
-}
-
-a[href^="https://"],
-a[href^="http://"] {
-  background: url(../img/ext.png) center right no-repeat;
-  padding-right: 13px;
 }
 
 a.logout i {
   color: orange;
   margin-left: .5em;
-}
-
-.code a[href^="https://"],
-.code a[href^="http://"] {
-  background: none;
-  padding-right: 0;
 }
 
 p.user {
@@ -50,10 +36,6 @@ p.user {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-#content.show li {
-  line-height: 1.92;
 }
 
 #content.show ul >li:first-child {
@@ -84,28 +66,11 @@ p.user {
 }
 
 blockquote {
-  text-indent: -1ex;
-  padding-right: 15px;
-  color: #553;
-  font-size: 14px;
-  border-left-color: #e6f1f6
-}
-
-blockquote p:before {
-  content: '“';
-}
-
-blockquote p:after {
-  content: '”';
+  font-size: inherit;
 }
 
 label {
   font-weight: bold;
-}
-
-p {
-  margin-bottom: 20px;
-  line-height: 1.92;
 }
 
 hr {
@@ -124,7 +89,6 @@ dl.search-results dt {
 h2,
 h1 {
   border-bottom: 1px solid #ddd;
-  font-family:"Ubuntu Condensed";
   margin: 0 0 20px 0;
 }
 
