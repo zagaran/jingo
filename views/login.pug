@@ -10,7 +10,7 @@ block content
 
     if (auth.google.enabled)
       p
-        +anchor('/auth/google', 'Google login').btn-auth.btn-auth-google
+        +anchor('/auth/google').btn-auth.btn-auth-google(title='Sign in with Google')
 
     if (auth.github.enabled)
       p
