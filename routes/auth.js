@@ -221,7 +221,7 @@ function _getAuthDone (req, res) {
   } else {
     var dst = req.session.destination || proxyPath + '/'
     delete req.session.destination
-    res.redirect(dst)
+    res.location(dst)
   }
 }
 
