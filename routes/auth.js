@@ -223,7 +223,7 @@ function _getAuthDone (req, res) {
     delete req.session.destination
 
     if(req.session.hash) {
-      dst = dst + req.session.hash
+      dst = dst + "/" + req.session.hash
       req.session.hash = null
     }
 
